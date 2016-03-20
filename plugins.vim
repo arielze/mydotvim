@@ -4,6 +4,12 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
+if empty(glob('~/.vim/colors/solarized.vim'))
+  silent !curl -fLo ~/.vim/colors/solarized.vim --create-dirs
+    \ https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
+  autocmd VimEnter * PlugInstall | source $MYVIMRC
+
+endif
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
