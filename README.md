@@ -55,8 +55,8 @@ From astrails/dotvim
 ##Colors, fonts and more
 ###Colorscheme
 - Solarised
--- light on GUI
--- dark on consol
+ - light on GUI
+ - dark on consol
 
 ###Gui font
 - Monaco, size 14
