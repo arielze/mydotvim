@@ -60,7 +60,7 @@ From astrails/dotvim
  - dark on consol
 
 ###Gui font
-- Monaco, size 14
+- Monospace, size 14
 
 
 

@@ -32,7 +32,7 @@ set mouse=a
 "travers open buffers
 map <c-e> :bn<cr>
 
-set guifont=Monaco:h14
+set guifont=Monospace\ 14
 
 " quickfix keybindings
 nmap  <leader>H :cfirst <cr>
