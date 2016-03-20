@@ -32,3 +32,4 @@ set mouse=a
 "travers open buffers
 map <c-e> :bn<cr>
 
+set guifont=Monaco:h14
