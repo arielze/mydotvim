@@ -29,3 +29,6 @@ else
  let g:solarized_termcolors=256
 endif
 colorscheme solarized
+
+" YouCompleteMe
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
