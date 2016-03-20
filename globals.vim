@@ -42,3 +42,11 @@ nmap  <leader>j :cprev <cr>
 nmap  <leader>k :ccl  <cr>
 
 
+"make Y consistent with C and D
+nnoremap Y y$
+
+" easy split navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
