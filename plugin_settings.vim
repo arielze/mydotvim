@@ -30,7 +30,7 @@ let g:syntastic_check_on_wq = 0
 let g:ctrlp_map = '<leader>o'
 let g:ctrlp_cmd = 'CtrlPMixed'
 nmap <leader>O :CtrlPTag<cr>
-nmap <c-o> :CtrlPClearCache<cr>:CtrlP<cr>
+nmap <c-o> :CtrlPClearCache<cr>:CtrlPMixed<cr>
 " nmap <leader>l :CtrlPLine<cr>
 " nmap <leader>b :CtrlPBuff<cr>
 "nmap <leader>M :CtrlPBufTagAll<cr>
