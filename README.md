@@ -21,6 +21,7 @@ Using vim-plug to manage the plugins.
 ###General
 - leader ,
 - Ctrl e traverse over open buffers
+
 ###QuickFix
 - ,H first
 - ,J last
@@ -56,6 +57,7 @@ From astrails/dotvim
 - Solarised
 -- light on GUI
 -- dark on consol
+
 ###Gui font
 - Monaco, size 14
 
