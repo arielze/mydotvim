@@ -29,3 +29,6 @@ syntax on
 " Enable mouse use in all modes
 set mouse=a
 
+"travers open buffers
+map <c-e> :bn<cr>
+
