@@ -49,7 +49,11 @@ endif
 colorscheme solarized
 
 " YouCompleteMe
-" let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+if !empty(glob('/usr/local/bin/python'))
+  let g:ycm_path_to_python_interpreter = '/usr/local/bin/python'
+else
+  let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+endif
 
 " vim-action-ag
 " use * to search current word in normal mode

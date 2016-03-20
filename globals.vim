@@ -33,3 +33,12 @@ set mouse=a
 map <c-e> :bn<cr>
 
 set guifont=Monaco:h14
+
+" quickfix keybindings
+nmap  <leader>H :cfirst <cr>
+nmap  <leader>J :clast <cr>
+nmap  <leader>h :cnext <cr>
+nmap  <leader>j :cprev <cr>
+nmap  <leader>k :ccl  <cr>
+
+
