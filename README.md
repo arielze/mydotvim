@@ -2,6 +2,20 @@
 after long time of using astrails/dotvim [[https://github.com/astrails/dotvim]] and inspired by them I decided to build my own.
 
 ##Plugins
+Using vim-plug to manage the plugins.
+
+- 'tpope/vim-sensible'
+- 'tpope/vim-fugitive'
+- 'scrooloose/nerdtree'
+- 'Xuyuanp/nerdtree-git-plugin'
+- 'scrooloose/syntastic'
+- 'kien/ctrlp.vim'
+- 'bling/vim-airline'
+- 'altercation/vim-colors-solarized'
+- 'scrooloose/nerdcommenter'
+- 'valloric/youcompleteme'
+- 'rking/ag.vim'
+- 'Chun-Yang/vim-action-ag'
 
 ##Key bindings
 ###General
