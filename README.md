@@ -54,7 +54,8 @@ From astrails/dotvim
 
 ##Colors, fonts and more
 ###Colorscheme
-- Solarised
+- Solarized
+ for more details installation and download of the colorscheme got to (http://ethanschoonover.com/solarized)
  - light on GUI
  - dark on consol
 
