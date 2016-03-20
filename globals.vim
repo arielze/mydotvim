@@ -11,7 +11,7 @@ set undofile
 set undodir=~/.backup/undo/,~/tmp,.
 
 " search settings
-set incsearch           " Incremental search
+"set incsearch           " Incremental search
 set hlsearch            " Highlight search match
 set ignorecase          " Do case insensitive matching
 set smartcase           " do not ignore if search pattern has CAPS
@@ -25,13 +25,28 @@ set et                  " expand tabs into spaces
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
 syntax on
-
-" Send more characters for redraws
-set ttyfast
-
+" mouse settings
 " Enable mouse use in all modes
 set mouse=a
 
-" Set this to the name of your terminal that supports mouse codes.
-" Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
-set ttymouse=xterm2
+"travers open buffers
+map <c-e> :bn<cr>
+
+set guifont=Monaco:h14
+
+" quickfix keybindings
+nmap  <leader>H :cfirst <cr>
+nmap  <leader>J :clast <cr>
+nmap  <leader>h :cnext <cr>
+nmap  <leader>j :cprev <cr>
+nmap  <leader>k :ccl  <cr>
+
+
+"make Y consistent with C and D
+nnoremap Y y$
+
+" easy split navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
