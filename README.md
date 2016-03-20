@@ -1,5 +1,5 @@
 #mydotvim - my vim settings
-after long time of using astrails/dotvim [[https://github.com/astrails/dotvim]] and inspired by them I decided to build my own.
+after long time of using [astrails/dotvim](https://github.com/astrails/dotvim) and inspired by them I decided to build my own.
 
 ##Plugins
 Using vim-plug to manage the plugins.
