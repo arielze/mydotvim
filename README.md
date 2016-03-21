@@ -52,7 +52,7 @@ From astrails/dotvim
 ###AG search
 - Ctrl f search word under ursor
 
-##Colors, fonts and more
+##Theam, Colors, fonts and more
 ###Colorscheme
 - Solarized
  for more details installation and download of the colorscheme got to (http://ethanschoonover.com/solarized)
@@ -60,7 +60,8 @@ From astrails/dotvim
  - dark on consol
 
 ###Gui font
-- Monospace, size 14
+- gui_gtk2: Inconsolata size 12
+- gui_macvim: Menlo Regular size 14
 
 
 
