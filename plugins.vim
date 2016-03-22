@@ -23,5 +23,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'valloric/youcompleteme'
 Plug 'rking/ag.vim'
 Plug 'Chun-Yang/vim-action-ag'
+Plug 'mhinz/vim-signify'
 
 call plug#end()

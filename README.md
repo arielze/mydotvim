@@ -23,10 +23,11 @@ Using vim-plug to manage the plugins.
 - Ctrl e traverse over open buffers
 
 ###QuickFix
-- ,H first
-- ,J last
-- ,h previous
-- ,j next
+- ,cH first
+- ,cJ last
+- ,ch previous
+- ,cj next
+- ,cc clear list
 
 ###Window navigation
 From astrails/dotvim

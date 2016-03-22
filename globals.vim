@@ -44,12 +44,15 @@ if has("gui_running")
   endif
 endif
 
+"guter color transparent
+highlight clear SignColumn
+
 " quickfix keybindings
-nmap  <leader>H :cfirst <cr>
-nmap  <leader>J :clast <cr>
-nmap  <leader>h :cnext <cr>
-nmap  <leader>j :cprev <cr>
-nmap  <leader>k :ccl  <cr>
+nmap  <leader>cH :cfirst <cr>
+nmap  <leader>cJ :clast <cr>
+nmap  <leader>ch :cnext <cr>
+nmap  <leader>cj :cprev <cr>
+nmap  <leader>cc :ccl  <cr>
 
 
 "make Y consistent with C and D
