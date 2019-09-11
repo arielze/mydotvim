@@ -1,7 +1,7 @@
-#mydotvim - my vim settings
+# mydotvim - my vim settings
 after long time of using [astrails/dotvim](https://github.com/astrails/dotvim) and inspired by them I decided to build my own.
 
-##Plugins
+## Plugins
 Using vim-plug to manage the plugins.
 
 - 'tpope/vim-sensible'
@@ -17,19 +17,19 @@ Using vim-plug to manage the plugins.
 - 'rking/ag.vim'
 - 'Chun-Yang/vim-action-ag'
 
-##Key bindings
-###General
+## Key bindings
+### General
 - leader ,
 - Ctrl e traverse over open buffers
 
-###QuickFix
+### QuickFix
 - ,cH first
 - ,cJ last
 - ,ch previous
 - ,cj next
 - ,cc clear list
 
-###Window navigation
+### Window navigation
 From astrails/dotvim
 
 - Ctrl h left window
@@ -37,30 +37,30 @@ From astrails/dotvim
 - Ctrl l left window
 - Ctrl k upper window
 
-###NerdTree
+### NerdTree
 - Ctrl n toggle NerdTree
 - ,t reveal in tree
 
-###NERDCommander 
+### NERDCommander 
 From astrails/dotvim
 - ,/ toggle comment
 
-###CtrlP
+### CtrlP
 - ,o open mixed mode
 - ,O open tags mode
 - Ctrl o reload & mixed search
 
-###AG search
+### AG search
 - Ctrl f search word under ursor
 
-##Theam, Colors, fonts and more
-###Colorscheme
+## Theam, Colors, fonts and more
+### Colorscheme
 - Solarized
  for more details installation and download of the colorscheme got to (http://ethanschoonover.com/solarized)
  - light on GUI
  - dark on consol
 
-###Gui font
+### Gui font
 - gui_gtk2: Inconsolata size 12
 - gui_macvim: Menlo Regular size 14
 
