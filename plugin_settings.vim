@@ -1,4 +1,4 @@
-" nertree 
+" nertree
 "autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 nmap <leader>t :NERDTreeFind<CR>
@@ -43,7 +43,7 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|tags)$'
 if has('gui_running')
   set background=light
 else
- set background=dark
+ set background=light
  let g:solarized_termcolors=256
 endif
 colorscheme solarized
