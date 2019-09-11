@@ -26,5 +26,6 @@ Plug 'Chun-Yang/vim-action-ag'
 Plug 'mhinz/vim-signify'
 Plug 'markwu/largefile'
 Plug 'elixir-lang/vim-elixir'
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 call plug#end()

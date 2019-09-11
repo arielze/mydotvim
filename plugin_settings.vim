@@ -60,3 +60,6 @@ endif
 nmap <c-f>  <Plug>AgActionWord
 " " use * to search selected text in visual mode
 vmap <c-f>  <Plug>AgActionVisual
+
+"pyhton mode
+let g:pymode_python = 'python3'
